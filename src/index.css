@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  background-color:#2a5c8e !important;
+}
+.cardcustom{
+  background-color: currentColor !important;
+  border-radius: 13px;
+}
+
+.cardcustom2{
+  background-color: #2a5c8e !important;
+}
+
+.todo{
+  width: 100%;
+  background: #2a5c8e;
+  color: #fff;
+  padding: 0px;
+  margin: 6px auto;
+  border-radius: 10px;
+  width: 400px;
+
+
+}
+.todos{
+  padding: 15px 0px;
+}
+.todos p{
+  margin: 0px;
+  padding: 6px 20px;
+  word-wrap: break-word;
+  line-height: 17px;
+
+}
+.todos h5{
+  word-wrap: break-word;
+  padding: 6px 20px;
+  color:aquamarine;
+}
+.todos button{
+  font-weight: bold;
+  margin: 5px 0px;
+  font-size: 13px;
+}
+
+.todos button:hover{
+  background-color: red;
+  color: #fff;
+}
+
+.addtodo{
+  width: 500px;
+  margin: auto;
+}
+.footer{
+  position: fixed !important;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: #202428;
+  color: #fff;
+  padding: 5px;
+}
+
+.weather_app{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4ed4fd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.searchbar{
+  display: flex;
+}
+
+.weatherstatus p{
+  font-weight: bold;
+}
+.navbar li:hover{
+  background-color: #212529;
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+.addtodo{
+  width:unset;
+}
+}
