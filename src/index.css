@@ -103,14 +103,13 @@ code {
 }
 
 @media only screen and (max-width: 600px) {
-.addtodo{
-  width:unset;
+  .addtodo{
+    width:unset;
+  }
+  .todo{
+    width: unset;
+  }
+  body{
+    height:100vh
+  }
 }
-.todo{
-  width: unset;
-}
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 974c7ee9fb89af4fd1bb0326bf14a0f6b66b6049
